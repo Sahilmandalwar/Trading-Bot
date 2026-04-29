@@ -1,0 +1,9 @@
+#1. folder structure created
+#2. virtual environment set and activated in backend
+#3. install modules : fastapi uvicorn yfinance pandas
+#4. code written
+#5. run code through :--- uvicorn main:app --reload
+
+
+learning : 
+-- we can't write @app.get(f"/price/{ticker}") it must be @app.get("/price/{ticker}")   cause it is fastapi parameter not a variable
